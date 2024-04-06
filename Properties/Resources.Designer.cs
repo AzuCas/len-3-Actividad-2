@@ -63,9 +63,39 @@ namespace len_3_Actividad_2.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hola {
+            get {
+                object obj = ResourceManager.GetObject("hola", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inteligencia {
+            get {
+                object obj = ResourceManager.GetObject("inteligencia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap LAC_2022_victim_and_player_ES_page_0001 {
             get {
                 object obj = ResourceManager.GetObject("LAC-2022-victim and player ES_page-0001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Work_in_progress__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Work in progress (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
